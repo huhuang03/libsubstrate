@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Developer/source/libsubstrate/app/app.iml" filepath="$USER_HOME$/Developer/source/libsubstrate/app/app.iml" />
+      <module fileurl="file://$USER_HOME$/Developer/source/libsubstrate/libsubstrate.iml" filepath="$USER_HOME$/Developer/source/libsubstrate/libsubstrate.iml" />
+      <module fileurl="file://$USER_HOME$/Developer/source/libsubstrate/substrate/substrate.iml" filepath="$USER_HOME$/Developer/source/libsubstrate/substrate/substrate.iml" />
+    </modules>
+  </component>
+</project>
