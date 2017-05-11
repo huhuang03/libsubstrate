@@ -19,17 +19,3 @@ add_library( # Specifies the name of the library.
              # Provides a relative path to your source file(s).
              demo.c )
 
-add_library (
-    substrate
-    SHARED
-    IMPORTED
-)
-
-set_target_properties( # Specifies the target library.
-                       substrate
-                       # Specifies the parameter you want to define.
-                       PROPERTIES IMPORTED_LOCATION
-                       # Provides the path to the library you want to import.
-                       substrate/src/main/jniLibs/${ANDROID_ABI}/libimported-lib.so )
-
-include_directories( substrate/src/main/cpp/include/ )
